@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><i>Sarah's todo list </i></h1>
+        <p>Continue working on the following...</p>
+      </div>
+      <form class="form" id="todoForm">
+        <input type="text" placeholder="Enter Item..." id="todoInput" />
+        <button class="btn" type="button" onclick="todoList()">Add Item</button>
+      </form>
+
+      <ol type="i" id="todoList">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React Native</li>
+        <li>Angular</li>
+      </ol>
+
+      <script src="todo.js"></script>
+    </div>
+  </body>
+</html>

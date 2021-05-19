@@ -1,0 +1,60 @@
+.container {
+  padding: 30px 300px;
+  background-color: #ddd;
+}
+.header {
+  background-color: rgb(179, 150, 179);
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the form - display items horizontally */
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Style the input fields */
+.form input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid;
+  border-color: purple;
+  border-radius: 10px;
+}
+/* Style the submit button */
+.form button {
+  padding: 10px 20px;
+  background-color: rgb(179, 150, 179);
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 20px;
+}
+
+.form button:hover {
+  background-color: rgb(161, 101, 161);
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+ol,
+li {
+  background-image: url(./images/todo.jpeg);
+  cursor: pointer;
+  position: relative;
+  padding: 15px 30px;
+  font-size: 15px;
+}
+ol li:hover {
+  background: #ddd;
+}
