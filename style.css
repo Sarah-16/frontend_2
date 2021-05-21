@@ -58,3 +58,15 @@ li {
 ol li:hover {
   background: #ddd;
 }
+
+/* styles Tunde added */
+
+li.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+li.todo button {
+  margin-right: 10px;
+  cursor: pointer;
+}

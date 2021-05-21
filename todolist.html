@@ -12,18 +12,23 @@
       <div class="header">
         <h1><i>Sarah's todo list </i></h1>
         <p>Continue working on the following...</p>
+        <button onclick="clearTodoList()">Clear Todo List</button>
       </div>
       <form class="form" id="todoForm">
         <input type="text" placeholder="Enter Item..." id="todoInput" />
-        <button class="btn" type="button" onclick="todoList()">Add Item</button>
+        <button class="btn" type="submit">Add Item</button>
       </form>
 
       <ol type="i" id="todoList">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React Native</li>
-        <li>Angular</li>
+        <!-- Static todos -->
+        <li class="todo">
+          Todo
+          <span
+            ><button name="delete" class="delete">Delete</button
+            ><button name="check" class="check">Check</button></span
+          >
+        </li>
+        <!-- other todo's from javascript will get added after here -->
       </ol>
 
       <script src="todo.js"></script>
