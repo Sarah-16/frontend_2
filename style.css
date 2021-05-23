@@ -19,7 +19,6 @@
   flex-flow: row wrap;
   align-items: center;
 }
-
 /* Style the input fields */
 .form input {
   vertical-align: middle;
@@ -38,11 +37,9 @@
   color: white;
   border-radius: 20px;
 }
-
 .form button:hover {
   background-color: rgb(161, 101, 161);
 }
-
 ol {
   margin: 0;
   padding: 0;
@@ -57,4 +54,16 @@ li {
 }
 ol li:hover {
   background: #ddd;
+}
+
+/* styles Tunde added */
+
+li.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+li.todo button {
+  margin-right: 10px;
+  cursor: pointer;
 }
